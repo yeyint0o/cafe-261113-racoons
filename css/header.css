@@ -1,0 +1,37 @@
+/* header.css */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #3b2a20;
+}
+
+.site-header__logo {
+  margin: 0;
+  font-size: 22px;
+  color: #fff;
+}
+
+.site-header__nav {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header__button {
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: #e8a33d;
+  color: #3b2a20;
+  font-weight: bold;
+  text-decoration: none;
+}

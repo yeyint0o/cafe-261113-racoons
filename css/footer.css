@@ -1,0 +1,30 @@
+/* footer.css */
+
+.site-footer {
+  padding: 40px 16px;
+  background: #2b2b2b;
+  color: #ccc;
+  text-align: center;
+}
+
+.site-footer__name {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.site-footer__info {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.site-footer__link {
+  color: #fff;
+}
+
+.site-footer__copy {
+  margin: 24px 0 0;
+  font-size: 12px;
+}
