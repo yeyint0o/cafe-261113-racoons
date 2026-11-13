@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
   <!-- ===== A ヘッダー ここから ===== -->
      <div class="notice-bar">
@@ -63,6 +65,17 @@
   <!-- ===== B メイン ここまで ===== -->
 
   <!-- ===== C フッター ここから ===== -->
+  <section class="contact" id="contact">
+    <h2 class="contact__title">お問い合わせ</h2>
+    <form class="contact__form">
+      <label class="contact__label" for="name">お名前</label>
+      <input class="contact__input" type="text" id="name" name="name">
+      <label class="contact__label" for="message">ご用件</label>
+      <textarea class="contact__input" id="message" name="message" rows="4"></textarea>
+      <button class="contact__button" type="submit">送信する</button>
+    </form>
+  </section>
+
   <footer class="site-footer">
     <p class="site-footer__name">まちかどカフェ</p>
     <ul class="site-footer__info">
@@ -73,6 +86,8 @@
     <p class="site-footer__copy">© 2026 まちかどカフェ</p>
   </footer>
 
+
   <!-- ===== C フッター ここまで ===== -->
 </body>
+
 </html>
