@@ -55,3 +55,34 @@
   color: #3b2a20;
   text-decoration: none;
 }
+
+.point {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.point__title {
+  margin: 0 0 24px;
+  font-size: 24px;
+  text-align: center;
+  color: #3b2a20;
+}
+
+.point__list {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.point__item {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #e8a33d;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+}
