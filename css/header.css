@@ -35,3 +35,15 @@
   font-weight: bold;
   text-decoration: none;
 }
+.notice-bar {
+  padding: 6px 16px;
+  background: #e8a33d;
+  text-align: center;
+}
+
+.notice-bar__text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3b2a20;
+}
