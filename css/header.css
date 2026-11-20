@@ -90,3 +90,6 @@
 .site-header__link:hover{
   color: #e8a33d;
 }
+.site-header__button:hover {
+  opacity: 0.8;
+}
