@@ -82,3 +82,7 @@
 .footer-nav__link {
   color: #ccc;
 }
+
+.contact__button:hover {
+  opacity: 0.8;
+}
