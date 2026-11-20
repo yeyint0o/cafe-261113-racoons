@@ -69,15 +69,16 @@
   cursor: pointer;
 }
 
-.sns {
+.footer-nav {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   margin: 16px 0 0;
   padding: 0;
   list-style: none;
+  font-size: 14px;
 }
 
-.sns__link {
-  color: #090707;
+.footer-nav__link {
+  color: #ccc;
 }
