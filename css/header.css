@@ -86,3 +86,7 @@
   margin: 0;
   color: #fff;
 }
+
+.site-header__link:hover{
+  color: #e8a33d;
+}
