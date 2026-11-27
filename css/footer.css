@@ -90,3 +90,17 @@
 .contact__input:focus {
   outline: 2px solid #e8a33d;
 }
+
+.sns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.sns__link {
+  color: #ccc;
+  text-align: center;
+  line-height: 32px;
+  padding: 8px;
+}
